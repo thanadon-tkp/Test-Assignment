@@ -1,0 +1,51 @@
+.site-bar {
+    background-color: blueviolet;
+    width: 4rem;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 0 3rem 0 0;
+    box-shadow: 3px 3px 5px rgba(51, 51, 51, 0.157);
+    position: fixed;
+}
+
+.site-bar ul {
+    width: 100%;
+    height: 100%;
+}
+
+.site-bar li {
+    border-bottom: 1px solid rgb(215, 215, 215);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-bar a {
+    text-decoration: none; 
+    color: #000;
+}
+
+ .site-bar img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
+
+.item p {
+    font-size: 0.8rem;
+    margin-top: .4rem;
+}
+
+.item div {
+    padding: .5rem;
+    color: #fff;
+    background-color: #0d1d5b;
+    border-radius: .5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
